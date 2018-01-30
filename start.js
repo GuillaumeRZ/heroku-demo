@@ -18,7 +18,7 @@ const app = require('./app');
 const port = helpers.normalizePort(process.env.PORT || 3001);
 app.set('port', port);
 const server = app.listen(app.get('port'), () => {
-  console.log(`🚅 Express running → PORT ${server.address().port}`);
+  console.log(`🚅 Express running right here → PORT ${server.address().port}`);
 });
 
 /* Get all the users except deleted one */
